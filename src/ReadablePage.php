@@ -33,6 +33,7 @@ use Kore\DataObject\DataObject;
 class ReadablePage extends DataObject
 {
     public $title = '';
+    public $author = '';
     public $content = '';
     public $datePublished = '';
     public $leadImageUrl = '';
@@ -43,6 +44,6 @@ class ReadablePage extends DataObject
     public $wordCount = 0;
     public $direction = 'ltr';
     public $totalPages = 0;
-    public $pagesPendered = 0;
+    public $pagesRendered = 0;
     public $nextPageUrl = '';
 }
