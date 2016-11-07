@@ -1,6 +1,6 @@
 {
-    "name": "benkle/readability",
-    "description": "API package for readability classes",
+    "name": "benkle/readability-api",
+    "description": "Interfaces for readability providers",
     "type": "library",
     "require": {
         "kore/data-object": "^1.1"
