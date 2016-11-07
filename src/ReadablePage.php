@@ -44,6 +44,11 @@ class ReadablePage extends DataObject
     public $wordCount = 0;
     public $direction = 'ltr';
     public $totalPages = 0;
-    public $pagesRendered = 0;
+    public $renderedPages = 0;
     public $nextPageUrl = '';
+
+    public function __set($name, $value)
+    {
+        // Just drop. Sorry, Kore.
+    }
 }
