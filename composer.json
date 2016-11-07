@@ -1,0 +1,15 @@
+{
+    "name": "benkle/readability",
+    "description": "API package for readability classes",
+    "type": "library",
+    "require": {
+        "kore/data-object": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Kleiner",
+            "email": "bizzl@users.sourceforge.net"
+        }
+    ]
+}
